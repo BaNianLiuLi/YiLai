@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+/*
+¹¥»÷ÀàÐÍ
+*/
+
+public enum AttackType
+{
+    Range,
+    Single,
+}
