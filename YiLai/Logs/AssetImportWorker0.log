@@ -194,3 +194,4 @@ Received Import Request.
 Start importing Assets/Script/ViewBaseCtr.cs using Guid(16378f14db5f0624da4f6a525d613b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3201a58e5394781e2624e287f894e0d5') in 0.004330 seconds
   Import took 0.006757 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
