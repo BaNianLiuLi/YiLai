@@ -61,6 +61,7 @@
     <Compile Include="Assets\Script\P_Action.cs" />
     <Compile Include="Assets\Script\HelpScript.cs" />
     <Compile Include="Assets\Script\ResilData.cs" />
+    <Compile Include="Assets\Script\ViewBaseCtr.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
