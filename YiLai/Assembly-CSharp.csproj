@@ -57,11 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\View\MainView.cs" />
     <Compile Include="Assets\Script\Config\RelicConfig.cs" />
-    <Compile Include="Assets\Script\P_Action.cs" />
+    <Compile Include="Assets\Script\Piece\P_Action.cs" />
     <Compile Include="Assets\Script\HelpScript.cs" />
-    <Compile Include="Assets\Script\ResilData.cs" />
-    <Compile Include="Assets\Script\ViewBaseCtr.cs" />
+    <Compile Include="Assets\Script\View\ViewBaseCtr.cs" />
+    <Compile Include="Assets\Script\Config\ResilData.cs" />
+    <Compile Include="Assets\Script\MapGenerator.cs" />
+    <Compile Include="Assets\Script\Direction.cs" />
+    <Compile Include="Assets\Script\Config\Map_Config.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
