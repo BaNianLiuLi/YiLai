@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
-ÒÅÎïÅäÖÃ
+é—ç‰©é…ç½®
 */
 namespace YiLaiDemo
 {
@@ -10,9 +10,9 @@ namespace YiLaiDemo
     {
         public List<ResilData> resilList;
         /// <summary>
-        /// ÏòÒÅÎïÁĞ±íÔö¼ÓÒÅÎï
+        /// å‘é—ç‰©åˆ—è¡¨å¢åŠ é—ç‰©
         /// </summary>
-        /// <param name="_resil">ĞèÒªÌí¼ÓµÄÒÅÎï</param>
+        /// <param name="_resil">éœ€è¦æ·»åŠ çš„é—ç‰©</param>
         public void AddResil(ResilData _resil)
         {
             if (_resil == null)
@@ -25,7 +25,7 @@ namespace YiLaiDemo
                 {
                     if (v.Name.Equals(_resil.Name))
                     {
-                        Debug.Log("ÒÅÎï±íÖĞÒÑ´æÔÚ¸ÃÒÅÎï¡£");
+                        Debug.Log("é—ç‰©è¡¨ä¸­å·²å­˜åœ¨è¯¥é—ç‰©ã€‚");
                         return;
                     }
                 }
@@ -35,9 +35,9 @@ namespace YiLaiDemo
         }
 
         /// <summary>
-        /// ´ÓÒÅÎïÁĞ±íÉ¾³ıÒÅÎï
+        /// ä»é—ç‰©åˆ—è¡¨åˆ é™¤é—ç‰©
         /// </summary>
-        /// <param name="_resil">ĞèÒªÉ¾³ıµÄÒÅÎï</param>
+        /// <param name="_resil">éœ€è¦åˆ é™¤çš„é—ç‰©</param>
         public void DeleteResil(ResilData _resil)
         {
             if (_resil == null)
@@ -54,7 +54,7 @@ namespace YiLaiDemo
                     }
                     else
                     {
-                        Debug.Log("Î´ÕÒµ½¸ÃÒÅÎï¡£");
+                        Debug.Log("æœªæ‰¾åˆ°è¯¥é—ç‰©ã€‚");
                         return;
                     }
                 }
@@ -63,9 +63,9 @@ namespace YiLaiDemo
         }
 
         /// <summary>
-        /// ´ÓÒÅÎïÁĞ±í²éÑ¯
+        /// ä»é—ç‰©åˆ—è¡¨æŸ¥è¯¢
         /// </summary>
-        /// <param name="_resil">ĞèÒª²éÑ¯µÄÒÅÎï</param>
+        /// <param name="_resil">éœ€è¦æŸ¥è¯¢çš„é—ç‰©</param>
         /// <returns></returns>
         public bool QuertResil(ResilData _resil)
         {
@@ -81,7 +81,7 @@ namespace YiLaiDemo
         }
 
         /// <summary>
-        /// »ñÈ¡ÒÅÎïÁĞ±í
+        /// è·å–é—ç‰©åˆ—è¡¨
         /// </summary>
         /// <returns></returns>
         public List<ResilData> GetResilList()
